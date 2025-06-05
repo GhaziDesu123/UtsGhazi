@@ -375,12 +375,14 @@ footer li {
 
 @media (max-width: 410px) {
   html {
-    font-size: 55%;
+    font-size: 45%;
   }
   .simply-countdown-circle > .simply-section {
     padding: 0.1rem;
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     margin: -3px;
+    background: linear-gradient(45deg, white, GREY);
+    box-shadow: 0 0 15px -10px var(--sc-circle-primary);
   }
 }
